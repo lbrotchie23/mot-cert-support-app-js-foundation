@@ -4,7 +4,7 @@ exports.config = {
     // Runner Configuration
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
-    runner: 'local',
+    runner: "local",
     //
     // ==================
     // Specify Test Files
@@ -20,9 +20,7 @@ exports.config = {
     // The path of the spec files will be resolved relative from the directory of
     // of the config file unless it's absolute.
     //
-    specs: [
-        './test/specs/**/*.js'
-    ],
+    specs: ["./test/specs/**/*.js"],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -129,7 +127,7 @@ exports.config = {
     reporters: [['junit',{
         outputDir: './reports/e2e-report/',
         outputFileFormat: function(options) {
-            return 'junit-report.xml'
+            return 'junit-report.xml';
         }
     }]],
 
