@@ -297,4 +297,4 @@ exports.config = {
     */
     // afterAssertion: function(params) {
     // }
-}
+};
